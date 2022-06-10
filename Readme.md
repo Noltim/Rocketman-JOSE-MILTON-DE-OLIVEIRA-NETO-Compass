@@ -27,7 +27,7 @@ Adendos: O autor trabalho simulando uma equipe, onde o mesmo sempre criava uma b
 - ServeRest.postman_collection
 - ServeRest.postman_test_run
 
-# Sobre o TDD 
+# Sobre o Projeto
 
 ## Prepraração para execução do projeto
 
