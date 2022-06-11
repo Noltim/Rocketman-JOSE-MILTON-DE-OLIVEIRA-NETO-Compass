@@ -27,7 +27,7 @@ Adendos: O autor trabalho simulando uma equipe, onde o mesmo sempre criava uma b
 - ServeRest.postman_collection
 - ServeRest.postman_test_run
 
-# Sobre o TDD 
+# Sobre o Projeto
 
 ## Prepraração para execução do projeto
 
@@ -70,6 +70,17 @@ Adendos: O autor trabalho simulando uma equipe, onde o mesmo sempre criava uma b
 - npm install -g newman-reporter-htmlextra
 
 - Finalmente, estamos prontos para criar os relatórios HTML!
+
+## Execução no newman
+
+- Executando nossos arquivos JSON
+- Esta é a nossa última etapa na criação dos relatórios HTML. 
+
+- Primeiro, precisamos abrir o cmd e acessar a pasta onde salvamos nossos arquivos JSON (por exemplo, cd C:\Users\YourName\ExportedJSONs). 
+
+- Uma vez que acessamos esta pasta, podemos executar os arquivos dentro dela usando este comando:
+
+- newman run ServeRest.postman_collection.json -e Local.postman_environment.json -n 4 -r htmlextra
 
 # Considerações Finais
 
