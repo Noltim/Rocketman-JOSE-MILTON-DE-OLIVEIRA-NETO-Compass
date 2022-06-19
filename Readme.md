@@ -31,11 +31,12 @@ Adendos: O autor trabalho simulando uma equipe, onde o mesmo sempre criava uma b
 
 ## Prepraração para execução do projeto
 
-- Requer o Nodejs 14.0 ou superior instalado, postman e newman instalados na sua maquina.(Na instalação você verá onde baixar e como instalar.)
+- Requer o Nodejs 14.0 ou superior instalado, postman e newman instalados na sua maquina e o Apache JMeter.(Na instalação você verá onde baixar e como instalar.)
 - Baixar o repositório ou cloná-lo
 - Iniciar o Postman e importar os arquivos '.postman' nas pastas. 
 - Os Arquivos estão localizados na pasta 'teste'com nome Local.postman... e ServeRest.postman...
 
+PS: O JMeter não é obrigatorio, mas caso deseje ver ou executar o teste de performance localmente pode baixa-lo.
 
 ## Instalação
 
