@@ -2,8 +2,8 @@
 
 # Sobre o Projeto
 
-Seu início se dá pela pasta Teste, onde está contido o desenvolvimento dos teste, assim como o report em newman, testes em postman arquitetados em JavaScript, provas visuais dos teste funcionando, anotações e afins.
-Navegando entre os arquivos supracitados temos os testes extraidos do postman no formato Json, assim como os recursos necessarios para usa-los, Local.postman_enviroment, ServeREst.postman_collection e ServeRest.postman_teste_run, estes serão acrescidos ao newman para obter o report html, conforme constamos na pasta Newman.
+Seu início se dá pela pasta Teste, onde está contido o desenvolvimento dos teste, assim como o report em newman, testes em postman arquitetados em JavaScript, provas visuais dos teste em pleno funcionamento, Apache JMeter com teste de performance, anotações e afins.
+Navegando entre os arquivos supracitados temos os testes extraidos do postman no formato Json, assim como os recursos necessarios para usa-los, Local.postman_enviroment, ServeREst.postman_collection. Estes serão acrescidos ao newman para obter o report html, conforme constamos mais abaixo.
 
 
 Adendos: O autor trabalho simulando uma equipe, onde o mesmo sempre criava uma branch para cada “funcionalidade” nova a ser implementada no código. Com isso o mesmo antes de fazer update dava um pull para receber os arquivos atualizado e conseguintemente introduzia os novos arquivos, a fim de evitar conflito e deturbar o andamento do projeto.
@@ -26,6 +26,8 @@ Adendos: O autor trabalho simulando uma equipe, onde o mesmo sempre criava uma b
 - Local.postman_environment
 - ServeRest.postman_collection
 - ServeRest.postman_test_run
+- Mapa atualizado dos Status code
+- Apache JMeter e seus resultados
 
 # Sobre o Projeto
 
@@ -40,9 +42,21 @@ PS: O JMeter não é obrigatorio, mas caso deseje ver ou executar o teste de per
 
 ## Instalação
 
+### Apache JMeter
 
+- Instalando o JMeter
+Na data de hoje a versão mais atual é a 5.5, vamos para o passo a passo da instalação:
+
+- Faça o download do JMeter no site oficial (https://jmeter.apache.org/download_jmeter.cgi).
+
+- Extraia o arquivo "apache-jmeter-5.5.zip" para uma pasta desejada.
+
+- Pronto estamos pronto para usar o JMeter.
+
+### Postman
 - Para instalação do postman deve-se seguir ao site oficial (https://www.postman.com/downloads/) e baixar a versão correspondente ao seu sitema operecional.
 
+### Newman + Nodejs
 - Para instalação do newman deve-se seguir os seguintes passos:
 
 - Baixar o NodeJS do site oficial ( https://nodejs.org/ ). Apenas certifique-se de instalar a versão que corresponde ao seu sistema operacional. 
@@ -72,7 +86,24 @@ PS: O JMeter não é obrigatorio, mas caso deseje ver ou executar o teste de per
 
 - Finalmente, estamos prontos para criar os relatórios HTML!
 
-## Execução no newman
+## Execução
+
+
+### JMeter
+
+- Para executar o JMeter, devemos ir no diretório $Local de instalação do JMeter\bin\.
+- Para executar no Windows devemos utilizar o arquivo jmeter.bat, para executar no Linux ou Mac devemos utilizar o arquivo jmeter.
+- Ao acessar o diretório, navegue até a aba "Exibir" e marque a opção "Extensões de nomes de arquivos". Após selecionar o arquivo que corresponde ao seu SO o JMeter será executado e está pronto para uso.
+- Bom agora estamos sabendo como executar nosso JMeter. Estão prontos para começar a rodar nossos testes?
+
+- Para rodar nossos teste abra o JMeter e clique em file > Open > teste > JMeter > TesteServeRest.jmx. Pronto abrimos nosso teste.
+PS: a pasta teste é baixada deste repositorio.
+
+- Para rodar nosso testes clique em grupo de usuários e preencha os campos: Number of Threads(users) com quantos usuarios desejas para o teste, por default recomendo 500, pois é o modelo que fizemos para o teste. E em Loop Count coloque quantas interações deseja por usuário, por default recomendamos 2.
+
+- Configurado nosso teste para iniciar clique Edit > Start e para ver os resultado você deve expandir a aba grupo de usuários e clica em: Aggregate Graph e Aggregate Report ambos externam os testes realizados.
+
+### Newman
 
 - Executando nossos arquivos JSON
 - Esta é a nossa última etapa na criação dos relatórios HTML. 
