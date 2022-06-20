@@ -18,6 +18,7 @@ Adendos: O autor trabalho simulando uma equipe, onde o mesmo sempre criava uma b
 - Nodejs
 - Mocha
 - Chai
+- Apache JMeter
 
 ## Conteúdo do Projeto 
 - Testes
@@ -33,7 +34,7 @@ Adendos: O autor trabalho simulando uma equipe, onde o mesmo sempre criava uma b
 
 ## Prepraração para execução do projeto
 
-- Requer o Nodejs 14.0 ou superior instalado, postman e newman instalados na sua maquina e o Apache JMeter.(Na instalação você verá onde baixar e como instalar.)
+- Requer o Nodejs 14.0 ou superior instalado, postman, newman instalados na sua maquina e o Apache JMeter.(Na instalação você verá onde baixar e como instalar.)
 - Baixar o repositório ou cloná-lo
 - Iniciar o Postman e importar os arquivos '.postman' nas pastas. 
 - Os Arquivos estão localizados na pasta 'teste'com nome Local.postman... e ServeRest.postman...
@@ -73,13 +74,13 @@ Na data de hoje a versão mais atual é a 5.5, vamos para o passo a passo da ins
 
 - A versão Npm deve aparecer.
 
-- Instalando Newman e HTML Reporters
+- Instalando Newman e HTML Reports
 - Newman é o executor de coleção que nos permite executar e testar uma coleção Postman a partir da linha de comando. A instalação é bem simples. 
 - Use cmd mais uma vez e digite:
 
 - npm install -g newman
 
-- Assim que a instalação do Newman estiver concluída, podemos instalar os repórteres digitando:
+- Assim que a instalação do Newman estiver concluída, podemos instalar os reports digitando:
 
 - npm install -g newman-reporter-html
 - npm install -g newman-reporter-htmlextra
