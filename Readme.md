@@ -55,7 +55,7 @@ Na data de hoje a versão mais atual é a 5.5, vamos para o passo a passo da ins
 - Pronto estamos pronto para usar o JMeter.
 
 ### Postman
-- Para instalação do postman deve-se seguir ao site oficial (https://www.postman.com/downloads/) e baixar a versão correspondente ao seu sitema operecional.
+- Para instalação do postman deve-se seguir ao site oficial (https://www.postman.com/downloads/) e baixar a versão correspondente ao seu sistema operacional.
 
 ### Newman + Nodejs
 - Para instalação do newman deve-se seguir os seguintes passos:
