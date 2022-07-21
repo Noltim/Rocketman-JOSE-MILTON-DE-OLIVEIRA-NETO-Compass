@@ -1,5 +1,3 @@
-# Compass UOL: Sprint 6
-
 # Sobre o Projeto
 
 Seu início se dá pela pasta Teste, onde está contido o desenvolvimento dos teste, assim como o report em newman, testes em postman arquitetados em JavaScript, provas visuais dos teste em pleno funcionamento, Apache JMeter com teste de performance, anotações e afins.
@@ -117,8 +115,7 @@ PS: a pasta teste é baixada deste repositorio.
 
 # Considerações Finais
 
- Este Projeto não seria possível sem o apoio dos meus queridos colegas de estágio, assim como meu Scrum Master Matheus Domingos.
- Durante todo a trilha foi possivel um vislumbre de todo o andamento desse mundo tão vasto chamados de testes. Ser um analista QA não é facil requer muito estudo e dedicação, assim como atenção e cuidado. Agradeço muito aos meus companheiros que ajudaram a todo momento na criação de todos os testes, assim como a Alexandre por auxiliar na criação desse readme e principalmente no auxilio da criação dos metodos de exclusão.
+Durante todo a trilha foi possivel um vislumbre de todo o andamento desse mundo tão vasto chamados de testes. Ser um analista QA não é facil requer muito estudo e dedicação, assim como atenção e cuidado. Agradeço muito aos meus companheiros que ajudaram a todo momento na criação de todos os testes, assim como a Alexandre por auxiliar na criação desse readme e principalmente no auxilio da criação dos metodos de exclusão.
 
 ## Autor
 
